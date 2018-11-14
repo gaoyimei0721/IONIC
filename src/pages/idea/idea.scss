@@ -1,0 +1,33 @@
+page-idea {
+    .idea{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        li{
+            width: 100%;
+            height: 230px;
+            background-size: cover;
+            text-align: center;
+            float: left;
+            div{
+                width: 70%;
+                height: 140px;
+                margin: 0 auto;
+                margin-top: 30px;
+                background-color:rgba(0,0,0,0.5);
+                color: white;
+                text-align: center;    
+                padding-top: 2px;
+            }
+        }
+        .i1{
+            background-image: url('../../assets/imgs/idea1.png');
+        }
+        .i2{
+            background-image: url('../../assets/imgs/idea2.png');
+        }
+        .i3{
+            background-image: url('../../assets/imgs/idea3.png');
+        }
+    }
+}

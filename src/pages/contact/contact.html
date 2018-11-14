@@ -1,17 +1,66 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Contact
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
 <ion-content>
-  <ion-list>
+  <div class="pic">
+    <img src="assets/imgs/photo.png">
+    <p text-center>
+      土方桔桔桔
+    </p>
+  </div>
+  <div class="order">
+    <p>我的订单<span>查看全部订单＞</span></p>
+  </div>
+  <ul class="mine">
+    <li class="first">
+      <ion-icon name="create"></ion-icon>
+      <p>我的发布</p>
+    </li>
+    <li class="second">
+      <ion-icon name="star"></ion-icon>
+      <p>我的收藏</p>
+    </li>
+    <li>
+      <ion-icon name="eye"></ion-icon>
+      <p>我的关注</p>
+    </li>
+  </ul>
+  <ul class="tools">
+    <li class="t1">
+      <ion-icon name="cart"></ion-icon>
+      <p>购物车</p>
+    </li>
+    <li>
+      <ion-icon name="locate"></ion-icon>
+      <p>收货地址</p>
+    </li>
+    <li class="t1">
+      <ion-icon name="card"></ion-icon>
+      <p>优惠券</p>
+    </li>
+    <li>
+      <ion-icon name="headset"></ion-icon>
+      <p>在线服务</p>
+    </li>
+    <li class="t1">
+      <ion-icon name="mail"></ion-icon>
+      <p>我的消息</p>
+    </li>
+    <li (click)="transferPage()">
+      <ion-icon name="settings"></ion-icon>
+      <p>设置</p>
+    </li>
+    <li class="t1">
+      <ion-icon name="ios-checkbox"></ion-icon>
+      <p>任务中心</p>
+    </li>
+    <li>
+      <ion-icon name="more"></ion-icon>
+      <p>更多</p>
+    </li>
+  </ul>
+  <!-- <ion-list>
     <ion-list-header>Follow us on Twitter</ion-list-header>
     <ion-item>
       <ion-icon name="ionic" item-start></ion-icon>
       @ionicframework
     </ion-item>
-  </ion-list>
+  </ion-list> -->
 </ion-content>

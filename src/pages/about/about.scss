@@ -1,3 +1,49 @@
 page-about {
-
+    .main{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding-top: 50px;
+        background-color: #ffdb2c; 
+        border: none;
+        ul{
+            width: 332px;
+            height: 536px;
+            margin: 0 auto;
+            padding: 0;
+            li{
+                width: 50%;
+                height: 50%;
+                float: left;
+                margin: 0;
+                text-align: center;
+                font-family: '[PingFang]';
+                color: #112233d5;
+                div{
+                    width: 150px;
+                    height: 150px;
+                    margin: 0 auto;
+                    background-size: cover;
+                    font-size: 45px;
+                    padding-top: 48px;    
+                }
+                .c1{
+                    background-image: url('../../assets/imgs/ac1.png');
+                    color: white;
+                }
+                .c2{
+                    background-image: url('../../assets/imgs/ac2.png');
+                }
+            }
+        }
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        border: 1px solid #ffdb2c;
+        background-color: #ffdb2c;
+    }
 }

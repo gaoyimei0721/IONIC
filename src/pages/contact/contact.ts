@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { SetPage } from '../set/set';
 
 @Component({
   selector: 'page-contact',
@@ -10,5 +11,7 @@ export class ContactPage {
   constructor(public navCtrl: NavController) {
 
   }
-
+  transferPage(){
+    this.navCtrl.push(SetPage);
+  }
 }

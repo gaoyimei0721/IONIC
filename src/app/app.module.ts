@@ -6,10 +6,16 @@ import { MyApp } from './app.component';
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
+import { ShopPage } from '../pages/shop/shop';
+import { IdeaPage } from '../pages/idea/idea';
 import { TabsPage } from '../pages/tabs/tabs';
+import { JiajuPage } from '../pages/jiaju/jiaju';
+import { SetPage } from '../pages/set/set';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
+
 
 @NgModule({
   declarations: [
@@ -17,11 +23,18 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    ShopPage,
+    IdeaPage,
+    TabsPage,
+    JiajuPage,
+    SetPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp, {
+      backButtonText: '',
+      tabsHideOnSubPages:true
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -29,7 +42,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    ShopPage,
+    IdeaPage,
+    TabsPage,
+    JiajuPage,
+    SetPage
   ],
   providers: [
     StatusBar,
